@@ -1,0 +1,16 @@
+Package: ZeligFeedback
+Type: Package
+Title: This package implements usage analytics for the Zelig packages.
+Version: 0.1
+Date: 2015-03-09
+Author: The Zelig Team
+Maintainer: James Honaker <zelig-zee@iq.harvard.edu>
+Description: This package provides analytics for the Zelig packages.
+License: GPL (>=2)
+Suggests:
+    Zelig,
+    ZeligChoice,
+    testthat,
+    knitr
+Collate:
+    'feedback.R'
